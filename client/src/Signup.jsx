@@ -19,7 +19,7 @@ function Signup() {
             setError('All fields are required');
             return;
         }
-        axios.post('https://authentication-office-workapi.vercel.app/register', { name, email, password, mobileNo })
+        axios.post('http://localhost:3001/register', { name, email, password, mobileNo })
             .then(result => {
                 console.log(result);
                 navigate('/login');
