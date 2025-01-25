@@ -12,6 +12,9 @@ app.use(cors({
     credentials:true
 }));
 
+app.get("/",(req,res)=>{
+    res.json("Hello");
+})
 
 mongoose.connect("mongodb+srv://Arun:Santana%407890@cluster1.fr9ag.mongodb.net/employee");
 app.post("/login", (req, res) => {
