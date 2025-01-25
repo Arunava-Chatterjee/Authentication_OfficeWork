@@ -38,7 +38,7 @@ npm start
 Start Frontend Development Server
 bashCopy# In the frontend directory
 npm run dev
-# Client will run on http://localhost:5173
+# Client will run on http://localhost:5173/register
 
 
 Features: 
